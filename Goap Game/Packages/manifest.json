@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.crashkonijn.goap": "https://github.com/crashkonijn/GOAP.git?path=/Package#3.1.2",
     "com.unity.ai.navigation": "2.0.12",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.collections": "2.6.6",

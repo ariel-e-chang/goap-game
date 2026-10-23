@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Linq;
-using Demos.Complex.Classes.Items;
-using Demos.Complex.Interfaces;
+using CrashKonijn.Goap.Demos.Complex.Classes.Items;
+using CrashKonijn.Goap.Demos.Complex.Interfaces;
 using UnityEngine;
+using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-namespace Demos.Complex.Behaviours
+namespace CrashKonijn.Goap.Demos.Complex.Behaviours
 {
     public class ComplexTreeBehaviour : MonoBehaviour
     {
@@ -16,8 +16,8 @@ namespace Demos.Complex.Behaviours
 
         private void Awake()
         {
-            this.itemCollection = FindObjectOfType<ItemCollection>();
-            this.itemFactory = FindObjectOfType<ItemFactory>();
+            this.itemCollection = Compatibility.FindObjectOfType<ItemCollection>();
+            this.itemFactory = Compatibility.FindObjectOfType<ItemFactory>();
         }
 
         private void Start()

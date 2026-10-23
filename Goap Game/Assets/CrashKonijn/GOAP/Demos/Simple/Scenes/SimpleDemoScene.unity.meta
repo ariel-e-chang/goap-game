@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: 06f8ec9bde145b742a09e21c5c77a7b4
+guid: e3982b0698afdb4488b1d9193961eb3a
 DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 252687
-  packageName: Goap
-  packageVersion: 2.1.19
-  assetPath: Assets/CrashKonijn/GOAP/Demos/Simple/Scenes/SimpleDemoScene.unity
-  uploadId: 645858
