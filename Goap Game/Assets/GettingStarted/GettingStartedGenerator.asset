@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0857b2a53377458ebec6c4b1179e3c5a, type: 3}
+  m_Name: GettingStartedGenerator
+  m_EditorClassIdentifier: CrashKonijn.Goap.Runtime::CrashKonijn.Goap.Runtime.GeneratorScriptable
+  nameSpace: CrashKonijn.Docs.GettingStarted
+  scripts:
+    goals:
+    - <Name>k__BackingField: IdleGoal
+      fullName: CrashKonijn.Docs.GettingStarted.IdleGoal, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      <Path>k__BackingField: Assets/GettingStarted/Goals/IdleGoal.cs
+      <Id>k__BackingField: Idle-f3d9e186-1835-4dc3-8510-004cac72c963
+    actions:
+    - <Name>k__BackingField: IdleAction
+      fullName: CrashKonijn.Docs.GettingStarted.Actions.IdleAction, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      <Path>k__BackingField: Assets/GettingStarted/Actions/IdleAction.cs
+      <Id>k__BackingField: Idle-d365df5e-021b-421d-bb50-ebe6d4eca79f
+    worldSensors: []
+    worldKeys:
+    - <Name>k__BackingField: IsIdle
+      fullName: CrashKonijn.Docs.GettingStarted.IsIdle, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      <Path>k__BackingField: Assets/GettingStarted/WorldKeys/IsIdle.cs
+      <Id>k__BackingField: IsIdle-ddeb03e8-aa77-4526-8e85-2cdf348ca309
+    targetSensors:
+    - <Name>k__BackingField: IdleTargetSensor
+      fullName: CrashKonijn.Docs.GettingStarted.Sensors.IdleTargetSensor, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      <Path>k__BackingField: Assets/GettingStarted/Sensors/IdleTargetSensor.cs
+      <Id>k__BackingField: IdleTargetSensor-c34e9575-d171-4044-9b83-a91a1c32e214
+    targetKeys:
+    - <Name>k__BackingField: IdleTarget
+      fullName: CrashKonijn.Docs.GettingStarted.IdleTarget, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      <Path>k__BackingField: Assets/GettingStarted/TargetKeys/IdleTarget.cs
+      <Id>k__BackingField: IdleTarget-6d889231-a42e-4155-bd18-e6f7f8cbf2f3
+    multiSensors: []

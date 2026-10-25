@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875fbfa2d1734285b353878b31467c98, type: 3}
+  m_Name: IdleCapabilityConfig
+  m_EditorClassIdentifier: CrashKonijn.Goap.Runtime::CrashKonijn.Goap.Runtime.CapabilityConfigScriptable
+  goals:
+  - goal:
+      <Name>k__BackingField: IdleGoal
+      <Id>k__BackingField: Idle-f3d9e186-1835-4dc3-8510-004cac72c963
+    baseCost: 1
+    conditions:
+    - worldKey:
+        <Name>k__BackingField: IsIdle
+        <Id>k__BackingField: IsIdle-ddeb03e8-aa77-4526-8e85-2cdf348ca309
+      comparison: 3
+      amount: 1
+  actions:
+  - action:
+      <Name>k__BackingField: IdleAction
+      <Id>k__BackingField: Idle-d365df5e-021b-421d-bb50-ebe6d4eca79f
+    target:
+      <Name>k__BackingField: IdleTarget
+      <Id>k__BackingField: IdleTarget-6d889231-a42e-4155-bd18-e6f7f8cbf2f3
+    properties:
+      rid: 7669301991893106748
+    baseCost: 1
+    stoppingDistance: 0.1
+    validateTarget: 1
+    requiresTarget: 1
+    validateConditions: 1
+    moveMode: 0
+    conditions: []
+    effects:
+    - worldKey:
+        <Name>k__BackingField: IsIdle
+        <Id>k__BackingField: IsIdle-ddeb03e8-aa77-4526-8e85-2cdf348ca309
+      effect: 1
+  worldSensors: []
+  targetSensors:
+  - sensor:
+      <Name>k__BackingField: IdleTargetSensor
+      <Id>k__BackingField: IdleTargetSensor-c34e9575-d171-4044-9b83-a91a1c32e214
+    targetKey:
+      <Name>k__BackingField: IdleTarget
+      <Id>k__BackingField: IdleTarget-6d889231-a42e-4155-bd18-e6f7f8cbf2f3
+  multiSensors: []
+  generatorScriptable: {fileID: 11400000, guid: 3dc1c1481a8bd6248954b892a9da4761, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 7669301991893106748
+      type: {class: EmptyActionProperties, ns: CrashKonijn.Agent.Runtime, asm: CrashKonijn.Agent.Runtime}
+      data: 
